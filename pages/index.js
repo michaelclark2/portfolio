@@ -1,12 +1,16 @@
-import { sql } from "@vercel/postgres";
-const { rows } = await sql`select * from projects`;
+import prisma from "@/lib/prisma";
 
-export default function Home() {
+export const getServerSideProps = async () => {
+  const projects = await prisma.project.findMany();
+  return { props: { projects } };
+};
+
+export default function Home({ projects }) {
   return (
     <div>
       <h1 className="text-6xl font-bold text-center">Michael Clark</h1>
-      {rows.map((row) => (
-        <p key={row.id}>{row.name}</p>
+      {projects.map((row) => (
+        <p key={row.id}>{row.title}</p>
       ))}
     </div>
   );
