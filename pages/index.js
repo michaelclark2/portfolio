@@ -1,3 +1,5 @@
+import About from "@/components/About";
+import Section from "@/components/Section";
 import prisma from "@/lib/prisma";
 
 export const getServerSideProps = async () => {
@@ -7,11 +9,15 @@ export const getServerSideProps = async () => {
 
 export default function Home({ projects }) {
   return (
-    <div>
-      <h1 className="text-6xl font-bold text-center">Michael Clark</h1>
-      {projects.map((row) => (
-        <p key={row.id}>{row.title}</p>
-      ))}
+    <div className="flex flex-col space-y-5 w-full max-w-2xl mx-auto p-4">
+      <About />
+      <Section title="Projects" colorClass="bg-purple-800">
+        {projects.map((row) => (
+          <p key={row.id}>{row.title}</p>
+        ))}
+      </Section>
+      <Section title="Skills" colorClass="bg-blue-800" />
+      <Section title="Contact" colorClass="bg-teal-800" />
     </div>
   );
 }
