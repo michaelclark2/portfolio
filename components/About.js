@@ -13,7 +13,7 @@ export default function About() {
         </h1>
         <p className="sm:leading-tight text-semibold pr-8">
           Full-stack software engineer with a passion for building beautiful,
-          performant systems to scale. I'd rather be camping.
+          performant systems to scale. I'd rather be camping. 🏕️
         </p>
       </div>
     </section>
