@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Project from "@/components/Project";
 import Section from "@/components/Section";
 import prisma from "@/lib/prisma";
 
@@ -13,7 +14,7 @@ export default function Home({ projects }) {
       <About />
       <Section title="Projects" colorClass="bg-purple-800">
         {projects.map((row) => (
-          <p key={row.id}>{row.title}</p>
+          <Project project={row} />
         ))}
       </Section>
       <Section title="Skills" colorClass="bg-blue-800" />
