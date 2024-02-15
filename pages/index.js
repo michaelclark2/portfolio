@@ -29,9 +29,9 @@ export default function Home({ projects, skills }) {
         </div>
       </Section>
       <Section title="Contact" colorClass="bg-teal-800">
-        <div className="flex justify-between my-4">
+        <div className="grid grid-cols-2 gap-4 sm:flex sm:justify-between my-4">
           <a
-            className="rounded-2xl border-4 border-black bg-red-800 px-4 font-bold"
+            className="rounded-2xl border-4 border-black bg-red-800 px-4 font-bold text-center"
             href="https://linkedin.com/in/michaelwclark2"
             target="_blank"
             rel="noopener"
@@ -39,19 +39,19 @@ export default function Home({ projects, skills }) {
             LinkedIn
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-yellow-500 px-4 font-bold"
+            className="rounded-2xl border-4 border-black bg-yellow-500 px-4 font-bold text-center"
             href="https://github.com/michaelclark2"
           >
             GitHub
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-purple-800 px-4 font-bold"
+            className="rounded-2xl border-4 border-black bg-purple-800 px-4 font-bold text-center"
             href="mailto:mc2.dev@proton.me"
           >
             Email
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-blue-800 px-4 font-bold"
+            className="rounded-2xl border-4 border-black bg-blue-800 px-4 font-bold text-center"
             href="https://michaelclark.notion.site/Michael-Clark-f95d698d5a034e23bfb0681698328b62"
             target="_blank"
             rel="noopener"
