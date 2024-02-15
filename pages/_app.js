@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
         <title>Michael Clark</title>
         <meta name="description" content="Full-stack developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={manrope.className}>
         <Component {...pageProps} />
