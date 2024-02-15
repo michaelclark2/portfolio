@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-row justify-between m-auto w-full">
+    <section className="flex flex-row justify-between m-auto w-full mb-40">
       <div className="sm:w-1/6 sm:flex justify-center items-center mr-5 hidden">
         <img
           src="./profile.jpg"
