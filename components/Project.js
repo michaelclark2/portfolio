@@ -13,7 +13,7 @@ export default function Project({ project }) {
           target="_blank"
           rel="noopener"
         >
-          <span className="mr-2 text-nowrap">Live Demo</span>
+          <span className="mr-2">View</span>
           <img
             className="rounded-full bg-teal-600 h-6 w-6 flex justify-center items-center border-2 border-black -mr-1"
             src="./arrow-forward-outline.svg"
