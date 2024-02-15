@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 import { Manrope } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <main className={manrope.className}>
         <Component {...pageProps} />
+        <Analytics />
       </main>
     </>
   );
