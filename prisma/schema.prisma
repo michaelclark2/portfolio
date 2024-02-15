@@ -13,4 +13,8 @@ datasource db {
 model Project {
     id String @default(cuid()) @id
     title String
+    description String
+    deployedURL String
+    imageURL String
+    techStack String
 }

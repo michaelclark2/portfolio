@@ -13,8 +13,8 @@ export default function Home({ projects }) {
     <div className="flex flex-col space-y-5 w-full max-w-2xl mx-auto p-4">
       <About />
       <Section title="Projects" colorClass="bg-purple-800">
-        {projects.map((row) => (
-          <Project project={row} />
+        {projects.map((project) => (
+          <Project project={project} />
         ))}
       </Section>
       <Section title="Skills" colorClass="bg-blue-800" />
