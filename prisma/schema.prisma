@@ -18,3 +18,10 @@ model Project {
     imageURL String
     techStack String
 }
+
+model Skill {
+    id String @default(cuid()) @id
+    title String
+    imageURL String
+    order Int
+}
