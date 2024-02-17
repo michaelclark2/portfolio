@@ -14,7 +14,7 @@ export const getServerSideProps = async () => {
 
 export default function Home({ projects, skills }) {
   return (
-    <div className="flex flex-col space-y-40 my-96 w-full max-w-2xl mx-auto p-4">
+    <div className="flex flex-col space-y-32 mt-24 sm:my-96 mb-96 w-full max-w-2xl mx-auto p-4">
       <About />
       <Section title="Projects" colorClass="bg-purple-800">
         {projects.map((project) => (
@@ -45,7 +45,7 @@ export default function Home({ projects, skills }) {
             GitHub
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-purple-800 px-4 font-bold text-center"
+            className="rounded-2xl border-4 border-black bg-violet-800 px-4 font-bold text-center"
             href="mailto:mc2.dev@proton.me"
           >
             Email
