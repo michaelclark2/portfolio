@@ -8,7 +8,7 @@ export default function About() {
         />
       </div>
       <div className="w-full flex flex-col">
-        <h1 className="text-5xl sm:text-6xl font-extrabold mb-2 sm:mb-4 text-nowrap">
+        <h1 className="text-4xl sm:text-6xl font-extrabold mb-2 sm:mb-4 text-nowrap">
           Michael Clark
         </h1>
         <p className="text-semibold pr-8 mb-4 text-lg">
