@@ -31,7 +31,7 @@ export default function Home({ projects, skills }) {
       <Section title="Contact" colorClass="bg-teal-800">
         <div className="grid grid-cols-2 gap-4 sm:flex sm:justify-between my-4">
           <a
-            className="rounded-2xl border-4 border-black bg-red-800 px-4 font-bold text-center"
+            className="rounded-2xl border-4 border-black bg-red-600 px-4 font-bold text-center"
             href="https://linkedin.com/in/michaelwclark2"
             target="_blank"
             rel="noopener"
@@ -45,13 +45,13 @@ export default function Home({ projects, skills }) {
             GitHub
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-violet-800 px-4 font-bold text-center"
+            className="rounded-2xl border-4 border-black bg-violet-600 px-4 font-bold text-center"
             href="mailto:mc2.dev@proton.me"
           >
             Email
           </a>
           <a
-            className="rounded-2xl border-4 border-black bg-blue-800 px-4 font-bold text-center"
+            className="rounded-2xl border-4 border-black bg-blue-600 px-4 font-bold text-center"
             href="https://michaelclark.notion.site/Michael-Clark-f95d698d5a034e23bfb0681698328b62"
             target="_blank"
             rel="noopener"
