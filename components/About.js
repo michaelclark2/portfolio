@@ -11,11 +11,11 @@ export default function About() {
         <h1 className="text-4xl sm:text-6xl font-extrabold mb-2 sm:mb-4 text-nowrap">
           Michael Clark
         </h1>
-        <p className="font-semibold pr-8 mb-4 text-lg">
+        <p className="font-bold pr-8 mb-4 text-lg">
           Full-stack software engineer with a passion for building beautiful,
           performant systems.
         </p>
-        <p className="font-semibold pr-8 text-lg">I'd rather be camping. 🏕️</p>
+        <p className="font-bold pr-8 text-lg">I'd rather be camping. 🏕️</p>
       </div>
     </section>
   );
