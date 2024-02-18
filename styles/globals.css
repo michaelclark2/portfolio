@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url(/contour-lines-thick.svg);
+  background-image: url(/contour-lines.svg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
