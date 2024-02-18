@@ -1,2 +1,9 @@
 @tailwind base;
 @tailwind utilities;
+
+body {
+  background-image: url(/contour-lines-thick.svg);
+  background-attachment: fixed;
+  background-size: 150%;
+  background-position: center;
+}

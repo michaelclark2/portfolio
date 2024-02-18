@@ -16,19 +16,19 @@ export default function Home({ projects, skills }) {
   return (
     <div className="flex flex-col space-y-32 mt-24 sm:my-96 mb-96 w-full max-w-2xl mx-auto p-4">
       <About />
-      <Section title="Projects" colorClass="bg-purple-800">
+      <Section title="Projects" colorClass="bg-violet-700">
         {projects.map((project) => (
           <Project key={project.id} project={project} />
         ))}
       </Section>
-      <Section title="Skills" colorClass="bg-blue-800">
+      <Section title="Skills" colorClass="bg-blue-700">
         <div className="grid auto-rows-auto grid-cols-3 sm:grid-cols-4 gap-6 mb-6 justify-items-center">
           {skills.map((skill) => (
             <Skill key={skill.id} skill={skill} />
           ))}
         </div>
       </Section>
-      <Section title="Contact" colorClass="bg-teal-800">
+      <Section title="Contact" colorClass="bg-teal-700">
         <div className="grid grid-cols-2 gap-4 sm:flex sm:justify-between my-4">
           <a
             className="rounded-2xl border-4 border-black bg-red-600 px-4 font-bold text-center"
