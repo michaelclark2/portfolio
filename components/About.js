@@ -13,7 +13,7 @@ export default function About() {
         </h1>
         <p className="font-semibold pr-8 mb-4 text-lg">
           Full-stack software engineer with a passion for building beautiful,
-          performant systems to scale.
+          performant systems.
         </p>
         <p className="font-semibold pr-8 text-lg">I'd rather be camping. 🏕️</p>
       </div>
