@@ -5,7 +5,9 @@ import Skill from "@/components/Skill";
 import prisma from "@/lib/prisma";
 
 export const getServerSideProps = async () => {
-  const projects = await prisma.project.findMany();
+  const projects = await prisma.project.findMany({
+    orderBy: [{ order: "asc" }],
+  });
   const skills = await prisma.skill.findMany({
     orderBy: [{ order: "asc" }],
   });

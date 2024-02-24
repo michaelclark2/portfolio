@@ -6,7 +6,7 @@ export default function Section({ title, colorClass, children }) {
         colorClass
       }
     >
-      <h2 className="text-3xl sm:text-4xl font-extrabold py-4">{title}</h2>
+      <h2 className="text-3xl sm:text-4xl font-extrabold py-4 mb-4">{title}</h2>
       {children}
     </section>
   );

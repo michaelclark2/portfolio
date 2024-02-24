@@ -15,8 +15,10 @@ model Project {
     title String
     description String
     deployedURL String
+    githubURL String
     imageURL String
     techStack String
+    order Int @default(0)
 }
 
 model Skill {
