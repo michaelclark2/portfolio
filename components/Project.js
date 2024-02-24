@@ -4,21 +4,8 @@ export default function Project({ project }) {
       key={project.id}
       className="rounded-2xl border-4 border-black py-2 bg-slate-200 shadow mb-4 p-4"
     >
-      <div className="flex justify-between items-center mb-2">
+      <div className="flex justify-between items-center mb-4">
         <h3 className="font-extrabold text-xl sm:text-2xl">{project.title}</h3>
-
-        <a
-          className="flex justify-center"
-          href={project.deployedURL}
-          target="_blank"
-          rel="noopener"
-        >
-          <span className="mr-2">View</span>
-          <img
-            className="rounded-full bg-teal-600 h-6 w-6 flex justify-center items-center border-2 border-black -mr-1"
-            src="./arrow-forward-outline.svg"
-          />
-        </a>
       </div>
       <div className="flex mb-2 flex-col">
         <div className="flex sm:space-x-4">
@@ -28,7 +15,6 @@ export default function Project({ project }) {
           />
           <p className="">{project.description}</p>
         </div>
-
         <div className="flex flex-wrap mt-4">
           {project.techStack?.split(",").map((tech, i) => (
             <span
@@ -38,6 +24,34 @@ export default function Project({ project }) {
               {tech}
             </span>
           ))}
+        </div>
+        <div className="flex  sm:justify-center space-x-5 mt-2">
+          {project.githubURL && (
+            <a
+              className="flex justify-center items-center rounded-full bg-teal-600 border-2 border-black p-2 px-4"
+              href={project.githubURL}
+              target="_blank"
+              rel="noopener"
+            >
+              <span className="mr-2 font-black">View Source</span>
+              <img
+                className="rounded-full bg-blue-600 h-8 w-8 flex justify-center items-center border-2 border-black p-1"
+                src="./code-outline.svg"
+              />
+            </a>
+          )}
+          <a
+            className="flex justify-center items-center rounded-full bg-teal-600 border-2 border-black p-2 px-4"
+            href={project.deployedURL}
+            target="_blank"
+            rel="noopener"
+          >
+            <span className="mr-2 font-black">Live Demo</span>
+            <img
+              className="rounded-full bg-blue-600 h-8 w-8 flex justify-center items-center border-2 border-black p-1"
+              src="./external-link-outline.svg"
+            />
+          </a>
         </div>
       </div>
     </div>
