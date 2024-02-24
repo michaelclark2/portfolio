@@ -40,18 +40,20 @@ export default function Project({ project }) {
               />
             </a>
           )}
-          <a
-            className="flex justify-center items-center rounded-full bg-teal-600 border-2 border-black p-2 px-4"
-            href={project.deployedURL}
-            target="_blank"
-            rel="noopener"
-          >
-            <span className="mr-2 font-black">Live Demo</span>
-            <img
-              className="rounded-full bg-blue-600 h-8 w-8 flex justify-center items-center border-2 border-black p-1"
-              src="./external-link-outline.svg"
-            />
-          </a>
+          {project.deployedURL && (
+            <a
+              className="flex justify-center items-center rounded-full bg-teal-600 border-2 border-black p-2 px-4"
+              href={project.deployedURL}
+              target="_blank"
+              rel="noopener"
+            >
+              <span className="mr-2 font-black">Live Demo</span>
+              <img
+                className="rounded-full bg-blue-600 h-8 w-8 flex justify-center items-center border-2 border-black p-1"
+                src="./external-link-outline.svg"
+              />
+            </a>
+          )}
         </div>
       </div>
     </div>
