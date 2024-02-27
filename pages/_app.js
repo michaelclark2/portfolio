@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />
+        <link rel="canonical" href="https://www.mclark.dev/" />
       </Head>
       <main className={manrope.className}>
         <Component {...pageProps} />
