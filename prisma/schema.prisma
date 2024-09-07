@@ -1,29 +1,27 @@
-// schema.prisma
-
-generator cleint {
-    provider = "prisma-client-js"
+generator client {
+  provider = "prisma-client-js"
 }
 
 datasource db {
-    provider = "postgresql"
-    url = env("POSTGRES_PRISMA_URL")
-    directUrl = env("POSTGRES_URL_NON_POOLING")
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
 model Project {
-    id String @default(cuid()) @id
-    title String
-    description String
-    deployedURL String
-    githubURL String
-    imageURL String
-    techStack String
-    order Int @default(0)
+  id          String @id @default(cuid())
+  title       String
+  description String
+  deployedURL String
+  imageURL    String
+  techStack   String
+  githubURL   String
+  order       Int    @default(0)
 }
 
 model Skill {
-    id String @default(cuid()) @id
-    title String
-    imageURL String
-    order Int
+  id       String @id @default(cuid())
+  title    String
+  imageURL String
+  order    Int
 }
