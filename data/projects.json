@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Meal Plan Jackpot",
+    "description": "Create meal plans in minutes from a large variety of recipes.  Try your luck and choose which meals you want to make from a random selection of meals, reloading to see new recipes.  Meal Plan Jackpot solved my problem of looking for new recipes to add to my routine.",
+    "deployedURL": "https://mealplanjackpot.com",
+    "imageURL": "./mealplanjackpot.png",
+    "techStack": "React Native,Next.js,TypeScript,Convex,tailwindcss,Vercel,Expo",
+    "githubURL": "https://github.com/michaelclark2/mealplanjackpot"
+  },
+  {
+    "title": "Groovetron",
+    "description": "An internet radio player that connects listeners to over 20,000 stations from all over the world.  Search for stations, display the currently playing track, and keep tabs of what you have been listening to over time.  Built with React, and hosted on Netlify.  Uses Netlify edge functions to retrieve audio metadata behind a proxy.",
+    "deployedURL": "https://groovetron.com",
+    "imageURL": "./groovetron.png",
+    "techStack": "React,TypeScript,JavaScript,tailwindcss,Netlify",
+    "githubURL": "https://github.com/michaelclark2/groovetron"
+  },
+  {
+    "title": "Clark's Natural Goods",
+    "description": "A landing page for a handcrafted soap business.  Collects email addresses to create a mailing list of future customers.",
+    "deployedURL": "https://clarksnaturalgoods.com",
+    "imageURL": "./clarksnaturalgoods.png",
+    "techStack": "JavaScript,Astro,tailwindcss,Vercel,Redis",
+    "githubURL": "https://github.com/michaelclark2/clarks-natural-goods",
+    "order": 1
+  },
+  {
+    "title": "Portfolio",
+    "description": "This page!  Designed around vintage camping gear, I built this website using Next.js and is self hosted on my home server",
+    "deployedURL": "https://mclark.dev",
+    "imageURL": "./preview.png",
+    "techStack": "React,Next.js,tailwindcss,nginx,Docker",
+    "githubURL": "https://github.com/michaelclark2/portfolio"
+  }
+]

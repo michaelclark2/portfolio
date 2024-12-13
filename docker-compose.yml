@@ -4,13 +4,4 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 3000:3000
-    environment:
-      POSTGRES_URL: postgres://michael:changeme@db/portfolio?sslmode=require
-
-  db:
-    image: postgres:17
-    environment:
-      POSTGRES_USER: michael
-      POSTGRES_PASSWORD: changeme
-      POSTGRES_DATABASE: portfolio
+      - 9991:80

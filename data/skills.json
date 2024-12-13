@@ -1,0 +1,70 @@
+[
+  {
+    "title": "JavaScript",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+  },
+
+  {
+    "title": "HTML",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+  },
+  {
+    "title": "CSS",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+  },
+
+  {
+    "title": "React",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+  },
+  {
+    "title": "Python",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+  },
+  {
+    "title": "git",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+  },
+
+  {
+    "title": "bash",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+  },
+
+  {
+    "title": "Next.js",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+  },
+  {
+    "title": "AWS",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+  },
+  {
+    "title": "Github Actions",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "title": "Docker",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+  },
+  {
+    "title": "Django",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  {
+    "title": "Astro",
+    "imageURL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg"
+  }
+]

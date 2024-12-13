@@ -2,19 +2,10 @@ import About from "@/components/About";
 import Project from "@/components/Project";
 import Section from "@/components/Section";
 import Skill from "@/components/Skill";
-import prisma from "@/lib/prisma";
 
-export const getServerSideProps = async () => {
-  const projects = await prisma.project.findMany({
-    orderBy: [{ order: "asc" }],
-  });
-  const skills = await prisma.skill.findMany({
-    orderBy: [{ order: "asc" }],
-  });
-  return { props: { projects, skills } };
-};
-
-export default function Home({ projects, skills }) {
+export default function Home() {
+  const projects = require("../data/projects.json");
+  const skills = require("../data/skills.json");
   return (
     <div className="flex flex-col space-y-32 mt-24 sm:my-96 mb-96 w-full max-w-2xl mx-auto p-4">
       <About />
