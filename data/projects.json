@@ -26,7 +26,7 @@
   },
   {
     "title": "Portfolio",
-    "description": "This page!  Designed around vintage camping gear, I built this website using Next.js and is self hosted on my home server",
+    "description": "This page!  Designed around vintage camping gear, I built this website using Next.js and is self hosted on my home server using Nginx, Docker and a self hosted Docker Registry",
     "deployedURL": "https://mclark.dev",
     "imageURL": "./preview.png",
     "techStack": "React,Next.js,tailwindcss,nginx,Docker",
