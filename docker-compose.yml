@@ -1,8 +1,13 @@
 services:
-  web:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+  portfolio:
+    image: hq.local:5000/portfolio
     restart: unless-stopped
     ports:
       - 9991:80
+    networks:
+      - proxynet
+
+networks:
+  proxynet:
+    external: true
+    name: npm_network
