@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "image": "docker build -t hq.local:5000/portfolio .",
+    "deploy": "docker push hq.local:5000/portfolio"
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.4",
